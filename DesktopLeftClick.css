@@ -1,0 +1,218 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	font-family: arial, sans-serif;
+	background-image: url('./img/Ideatree.jpg');
+	 background-repeat: no-repeat;
+	background-size: cover;
+}
+.action{
+	width: 300px;
+	height:max-content;
+	margin: 10%  auto;
+	background-color: rgb(243, 239, 239);
+	padding:20px 5px;
+	padding-bottom: 0px;
+	border-radius: 10px;
+}
+.action ul{
+	display: block;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.action li{
+	margin: 15px 0px;
+	color:rgb(78, 76, 76);
+	padding: 0px 15px;
+}
+.action li:hover{
+	cursor:pointer;
+	background-color: rgba(133, 130, 130, 0.274);
+	margin: 0px;
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+.action .icon-chevron-right, .racourci{
+	float: right;
+	font-size: 13px;
+	color:rgb(125, 126, 126);
+}
+.icon-copy{
+	margin: 15px 0px;
+	padding: 0px 15px;
+	font-size: 20px;
+}
+hr{
+	border:1px double rgba(133, 130, 130, 0.274);
+}
+.ligne{
+	border:1px double rgba(133, 130, 130, 0.274);
+	margin: -6px;
+}
+
+.BarreDetaches{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	margin: 0px;
+	background-color: rgb(243, 239, 239);
+	width: 100%;
+	height: 50px;
+	padding: 10px 20px;
+	padding-bottom: 0px;
+	display: flex;
+	flex-flow: nowrap;
+	box-sizing: border-box;
+}
+.BarreDetaches .left{
+	width: 15%;
+	display: flex;
+	justify-content: space-between;
+}
+.BarreDetaches .left ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+.BarreDetaches .left li{
+	font-size:25px;
+	margin: auto 10px;
+}
+.BarreDetaches .left .search{
+	width: 70%;
+	background-color: rgb(253, 252, 252);
+	border-radius: 20px;
+	height: 30px;
+	padding: 0px 10px;
+	box-sizing: border-box;
+}
+.BarreDetaches .left .search form{
+	display: flex;
+	height: 100%;
+}
+.BarreDetaches .left .search span{
+	width: 10%;
+	background-color: none;
+	margin: auto;
+	font-size: 15px;
+	color:rgb(156, 154, 154);
+}
+.BarreDetaches .left .search input{
+	width: 90%;
+	height: 100%;
+	border: none;
+	background-color: transparent;
+	border-radius: 20px;
+}
+.BarreDetaches .taches{
+	width: 65%;
+	padding: 0px 20px;
+}
+.BarreDetaches .params{
+	width: 20%;
+}
+.BarreDetaches .taches ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+.BarreDetaches .taches li{
+	font-size:25px;
+	margin: auto 10px;
+}
+
+.BarreDetaches .icon-windows{
+	color:rgb(33, 187, 248);;
+}
+
+.BarreDetaches .taches .icon-spotify{
+	color:rgb(30, 185, 134);
+}
+.BarreDetaches .taches .icon-grav{
+	color:rgb(255, 123, 0);
+	border-bottom: 2px solid rgb(94, 93, 93);
+	padding-bottom: 5px;
+}
+.BarreDetaches .taches .icon-facebook-square, .icon-edge, .icon-skype, .icon-linkedin, .icon-telegram {
+	color:rgb(0, 110, 255);
+}
+.BarreDetaches .taches .icon-twitter{
+	color:blue;
+}
+.BarreDetaches .taches .icon-firefox{
+	color:rgb(241, 177, 37);
+}
+.BarreDetaches .taches .icon-whatsapp{
+	color:rgb(28, 199, 105);
+}
+.BarreDetaches .taches .icon-instagram{
+	color:rgb(255, 74, 3);
+}
+.BarreDetaches .taches .icon-opera{
+	color:rgb(223, 27, 27);
+	border-bottom: 2px solid rgb(94, 93, 93);
+	padding-bottom: 5px;
+	background-color: rgb(255, 255, 255);
+	padding: 6px 10px;
+	border-radius: 5px 5px 0px 0px;
+}
+.BarreDetaches .taches .icon-folder-open{
+	color:rgb(223, 210, 26);
+	border-bottom: 2px solid rgb(94, 93, 93);
+	padding-bottom: 5px;
+}
+.BarreDetaches .taches .icon-reddit{
+	color:rgb(247, 70, 16);
+}
+.BarreDetaches .taches .icon-gitlab{
+	color:rgb(122, 122, 122);
+}
+.BarreDetaches .taches .icon-vimeo{
+	color:rgb(18, 190, 75);
+}
+.BarreDetaches .taches .icon-chrome{
+	color:rgb(61, 180, 228);
+}
+.BarreDetaches .taches .icon-git-square{
+	color:rgb(101, 146, 163);
+}
+
+.BarreDetaches .params{
+	justify-content: space-between;
+}
+.BarreDetaches .params ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+.BarreDetaches .params li{
+	margin: auto 5px;
+	color:rgb(105, 104, 104);
+}
+.BarreDetaches .params .icon-shield{
+	color: #209de6;
+	font-size: 20px;
+}
+.BarreDetaches .params .icon-bluetooth{
+	color: #209de6;
+}
+.BarreDetaches .params .lang{
+	font-size: 12px;
+	font-weight: 500;
+}
+.BarreDetaches .params .icon-wifi{
+	font-size: 20px;
+}
+.BarreDetaches .params .calendar{
+	font-size: 12px;
+	text-align: right;
+}

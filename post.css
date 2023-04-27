@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(225, 235, 238);
+}
+.container{
+    padding: 10%;
+    display: flex;
+}
+.post{
+    width: 40%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.post .image{
+    width: 16%;
+    height: auto;
+}
+.post .image img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.post .text{
+    width: 84%;
+    height: auto;
+    text-align: left;
+}
+.post .text h1{
+    font-size: 18px;
+    font-weight: 600;
+    color:rgb(139, 138, 138);
+    margin-bottom: 5px;
+}
+.post .text h1 span{
+    font-weight: 400;
+}
+.post .text h2{
+    font-weight: 550;
+    color:rgb(43, 46, 59);
+    font-size: 19px;
+}
+.post .text .actions{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 22px;
+    color: rgb(123, 124, 124);
+    justify-content: space-between;
+    display: flex;
+}
+.post .text .actions span:hover{
+    cursor: pointer;
+    font-size: 25px;
+    transition: .4s;
+}
+.post .text .actions span .active{
+    color: rgb(48, 114, 235);
+    font-size: 25px;
+}
+.post .text .actions #like{
+    color: rgb(48, 114, 235);
+}
+.post .text .actions #love{
+    color:rgb(240, 6, 6);
+    margin-left: -10px;
+    font-size: 19px;
+}
+.post .text .actions .img img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid rgb(240, 6, 6);
+}
+
+@media screen and (max-width:768px){
+    .container{
+        padding: 1%;
+        display: flex;
+    }
+    .post{
+        width: 80%;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        padding-bottom: 10px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .post .image{
+        width: 100%;
+        height: auto;
+    }
+    .post .image img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+}

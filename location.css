@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: .4s ease-in-out;
+}
+body{
+    background-image: linear-gradient(to left, rgb(216, 249, 255),rgba(255, 221, 249, 0.692),rgba(205, 216, 252, 0.74));
+}
+button:hover{
+    cursor: pointer;
+}
+.dflex{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.entete{
+    width: 100%;
+    height: auto;
+    padding: 20px 10%;
+}
+.entete .logo{
+    width: 30%;
+}
+.entete .menu{
+    width: 70%;
+    padding-top:10px;
+}
+.entete .menu ul{
+    list-style: none;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    margin: none;
+}
+.entete .menu ul li{
+    margin: 0px 20px;
+    color: rgb(148, 146, 146);
+}
+.entete .menu ul li:hover{
+    color: rgb(74, 100, 218);
+    font-weight: 700;
+    cursor: pointer;
+    padding-bottom: 8px;
+    border-bottom: 3px solid rgb(33, 30, 87);
+}
+.entete .logo h1{
+    font-weight: 800;
+    color:rgb(54, 89, 143);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 10px white;
+}
+.location{
+    width: 100%;
+    height: 100%;
+    padding: 3% 10%;
+}
+.dflex .left{
+    width: 50%;
+    height: auto;
+}
+.dflex .right{
+    width: 50%;
+    height: auto;
+}
+.dflex .left h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(53, 46, 82);
+    margin: 20px 0px;
+    line-height: 45px;
+}
+.dflex .left h2 span{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(89, 89, 236);
+}
+.dflex .left p{
+    font-size: 20px;
+    color:rgb(130, 132, 136);
+    margin-bottom: 20px;
+}
+.dflex .right img{
+    width: 100%;
+    height: 100%;
+}
+.location .left .btn{
+    width: 100%;
+    margin: 30px 0px;
+}
+.location .left .btn .btncontact{
+    border: none;
+    padding: 20px;
+    background-color: rgb(53, 46, 82);
+    color:white;
+    border-radius: 50px;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+.location .left .btn .btnaffaire{
+    border: none;
+    padding: 20px;
+    background-color: rgb(89, 89, 236);
+    color:white;
+    border-radius: 50px;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+.location .newsletter{
+    width: 50%;
+    margin: 30px auto;
+}
+.location .newsletter hr{
+    margin: 20px 0px;
+}
+.location .newsletter h2{
+    font-size: 20px;
+    color: rgb(53, 46, 82);
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.location .newsletter label{
+    font-size: 15px;
+    color: rgb(130, 132, 136);
+}
+.location .newsletter .input{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.location .newsletter .input input,button{
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    border-radius: 20px;
+    padding: 0px 10px;
+    padding-left: 20px;
+}
+.location .newsletter .input input{
+    width: 80%;
+}
+.location .newsletter .input button{
+    background-color: rgb(89, 89, 236);
+    width: 20%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 0px 20px;
+    color:white;
+}
